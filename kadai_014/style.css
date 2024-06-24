@@ -1,17 +1,24 @@
+:root {
+    font-size: 20px;
+}
+
 body {
     font-family: "Arial", "Meiryo", sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
+    /* font-size: 20px; */
 }
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
+    /* font-size: 2em; */
     letter-spacing: 1.2em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-bottom: 3px solid rgb(115, 115, 114);
     display: inline-block;
     margin-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .skyblue {
@@ -26,6 +33,10 @@ h1 {
     font-weight: normal;
 }
 
-#basic p strong {
+#basic p.bold {
     font-weight: bold;
 }
+
+/* #basic p strong {
+    font-weight: bold;
+} */
