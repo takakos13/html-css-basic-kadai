@@ -53,7 +53,8 @@
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
 }
 
 #bottom-child01 {
@@ -62,11 +63,13 @@
 }
 
 #bottom-child02 {
-    top: 100px;
+    /* top: 100px; */
+    top: 0;
     left: 200px;
 }
 
 #bottom-child03 {
-    top: 200px;
+    /* top: 200px; */
+    top: 0;
     left: 400px;
 }
